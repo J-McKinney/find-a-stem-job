@@ -10,7 +10,7 @@ import "assets/css/demo.css";
 import AdminLayout from "layouts/Admin.js";
 
 ReactDOM.render(
-  <BrowserRouter basename="/">
+  <BrowserRouter basename="/find-a-stem-job">
     <Switch>
       <Route exact path="/find-a-stem-job" component={Login} />
       <Route path="/admin" render={(props) => <AdminLayout {...props} />} />
