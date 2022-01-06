@@ -4,7 +4,6 @@ import { Line, Bar, Pie } from "react-chartjs-2";
 import AllClusters from "../JSON/allClusters/allClusters.json";
 import MarkerClusterer from "@googlemaps/markerclustererplus";
 import PanelHeader from "components/PanelHeader/PanelHeader.js";
-// import stars from "../assets/img/stars.jpg";
 import {
   Button,
   Row,
@@ -51,7 +50,6 @@ const MapWrapper = () => {
       position: myLatlng,
       map: map,
       animation: google.maps.Animation.DROP,
-      // icon: BlueA,
       label: "YOU",
       title: "You Are Here",
     });
@@ -229,7 +227,7 @@ function FullScreenMap() {
                   className="card-chart"
                 >
                   <CardHeader>
-                    <CardTitle tag="h4">Your GIGs:</CardTitle>
+                    <CardTitle tag="h4">STEM Jobs:</CardTitle>
                   </CardHeader>
                   <CardBody>
                     <div className="chart-area">
@@ -258,7 +256,7 @@ function FullScreenMap() {
                   className="card-chart"
                 >
                   <CardHeader>
-                    <CardTitle tag="h4">STEM Program:</CardTitle>
+                    <CardTitle tag="h4">STEM Programs:</CardTitle>
                   </CardHeader>
                   <CardBody>
                     <div className="chart-area">
@@ -287,7 +285,9 @@ function FullScreenMap() {
                   className="card-chart"
                 >
                   <CardHeader>
-                    <CardTitle tag="h4">GIGs available in your area:</CardTitle>
+                    <CardTitle tag="h4">
+                      STEM Jobs available in your area:
+                    </CardTitle>
                   </CardHeader>
                   <CardBody>
                     <div className="chart-area">
@@ -309,6 +309,7 @@ function FullScreenMap() {
               </Col>
             </Row>
             <Row>
+              <Col xs={12} md={2} />
               <Col xs={12} md={4}>
                 <Card
                   style={{
@@ -318,7 +319,7 @@ function FullScreenMap() {
                   className="card-chart"
                 >
                   <CardHeader>
-                    <CardTitle tag="h4">Monthly Credits Earned</CardTitle>
+                    <CardTitle tag="h4">Monthly Job Openings</CardTitle>
                   </CardHeader>
                   <CardBody>
                     <div className="chart-area">
@@ -345,7 +346,7 @@ function FullScreenMap() {
                   className="card-chart"
                 >
                   <CardHeader>
-                    <CardTitle tag="h4">GIGs Accepted this Week</CardTitle>
+                    <CardTitle tag="h4">Jobs Accepted this Week</CardTitle>
                   </CardHeader>
                   <CardBody>
                     <div className="chart-area">
@@ -362,49 +363,11 @@ function FullScreenMap() {
                   </CardFooter>
                 </Card>
               </Col>
-              <Col xs={12} md={4}>
-                <Card
-                  style={{
-                    boxShadow:
-                      "-1px -1px 2px 2px hsl(0, 0%, 79%), 5px 5px 5px 3px hsl(0, 0%, 39%)",
-                  }}
-                  className="card-chart"
-                >
-                  <CardHeader>
-                    <CardTitle tag="h4">Overall GIGs Accepted</CardTitle>
-                  </CardHeader>
-                  <CardBody>
-                    <div className="chart-area">
-                      <Pie
-                        data={mapPagePieChart.data}
-                        options={mapPagePieChart.options}
-                      />
-                    </div>
-                  </CardBody>
-                  <CardFooter>
-                    <div className="stats">
-                      <i className="now-ui-icons arrows-1_refresh-69" />
-                      Just Updated
-                    </div>
-                  </CardFooter>
-                </Card>
-              </Col>
+              <Col xs={12} md={2} />
             </Row>
           </Col>
         </Row>
       </div>
-      <img
-        style={{
-          height: "50px",
-          position: "static",
-          bottom: "0",
-          right: "0",
-          float: "right",
-          marginRight: "20px",
-        }}
-        alt="SLA Labs Logo"
-        src={require("assets/img/slaLogo.png").default}
-      />
       <div
         style={{
           color: "black",
@@ -414,7 +377,7 @@ function FullScreenMap() {
           visibility: "hidden",
         }}
       >
-        Owned By: Doug Zweber & Created By: Jesse McKinney
+        Created By: Jesse McKinney
       </div>
     </>
   );

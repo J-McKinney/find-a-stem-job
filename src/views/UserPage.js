@@ -403,18 +403,6 @@ function User() {
           </Col>
         </Row>
       </div>
-      <img
-        style={{
-          height: "50px",
-          position: "static",
-          bottom: "0",
-          right: "0",
-          float: "right",
-          marginRight: "20px",
-        }}
-        alt="SLA Labs Logo"
-        src={require("assets/img/slaLogo.png").default}
-      />
       <div
         style={{
           color: "black",
@@ -424,7 +412,7 @@ function User() {
           visibility: "hidden",
         }}
       >
-        Owned By: Doug Zweber & Created By: Jesse McKinney
+        Created By: Jesse McKinney
       </div>
     </>
   );

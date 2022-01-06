@@ -1,6 +1,6 @@
 const tasks = [
   {
-    text: "Just got in touch with the new GIG employee on that freelance work. You should check it out.",
+    text: "Just got in touch with the new employee on that freelance work. You should check it out.",
   },
   {
     text: "What was the address to that video link you sent me the other day?",

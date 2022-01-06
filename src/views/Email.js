@@ -27,7 +27,7 @@ class Email extends Component {
             <Col md={12}>
               <Card>
                 <CardHeader>
-                  <h5 className="title">GIG Mail</h5>
+                  <h5 className="title">Your Mail</h5>
                 </CardHeader>
                 <CardBody>
                   <Form>
@@ -107,7 +107,7 @@ class Email extends Component {
                         <tr>
                           <td>John Marx</td>
                           <td className="text-left">
-                            Just got in touch with the new GIG employee on that
+                            Just got in touch with the new employee on that
                             freelance work. You should check it out.
                           </td>
                           <td className="td-actions text-right">
@@ -124,7 +124,7 @@ class Email extends Component {
                               delay={0}
                               target="tooltip731609870"
                             >
-                              Add To Your Cluster
+                              Add To Your Contacts
                             </UncontrolledTooltip>
                             {/*//////////////////////////////////////////////////*/}
                             <Button
@@ -163,7 +163,7 @@ class Email extends Component {
                               delay={0}
                               target="tooltip731609870"
                             >
-                              Add To Your Cluster
+                              Add To Your Contacts
                             </UncontrolledTooltip>
                             {/*//////////////////////////////////////////////////*/}
                             <Button
@@ -203,7 +203,7 @@ class Email extends Component {
                               delay={0}
                               target="tooltip731609870"
                             >
-                              Add To Your Cluster
+                              Add To Your Contacts
                             </UncontrolledTooltip>
                             {/*//////////////////////////////////////////////////*/}
                             <Button
@@ -243,7 +243,7 @@ class Email extends Component {
                 }}
               >
                 <CardHeader>
-                  <CardTitle tag="h4">Your Recent GIGs</CardTitle>
+                  <CardTitle tag="h4">Your Job History</CardTitle>
                 </CardHeader>
                 <CardBody>
                   <Table responsive>
@@ -257,31 +257,31 @@ class Email extends Component {
                     </thead>
                     <tbody>
                       <tr>
-                        <td>SLA Labs LLC</td>
+                        <td>Facebook</td>
                         <td>Yes</td>
-                        <td>DOD Intern</td>
+                        <td>Tech</td>
                         <td className="text-right">9/22/21</td>
                       </tr>
                       <tr>
-                        <td>J. Christopher's</td>
+                        <td>InoTech Inc.</td>
                         <td>No</td>
-                        <td>Hospitality</td>
+                        <td>Tech</td>
                         <td className="text-right">7/13/20</td>
                       </tr>
                       <tr>
                         <td>Bank of America</td>
                         <td>No</td>
-                        <td>Hospitality</td>
+                        <td>Tech</td>
                         <td className="text-right">5/17/19</td>
                       </tr>
                       <tr>
                         <td>Morgan Middle School</td>
                         <td>No</td>
-                        <td>K-12</td>
+                        <td>STEM</td>
                         <td className="text-right">9/11/18</td>
                       </tr>
                       <tr>
-                        <td>PetSmart</td>
+                        <td>J. Christopher's</td>
                         <td>No</td>
                         <td>Hospitality</td>
                         <td className="text-right">5/21/17</td>
@@ -293,18 +293,6 @@ class Email extends Component {
             </Col>
           </Row>
         </div>
-        <img
-          style={{
-            height: "50px",
-            position: "static",
-            bottom: "0",
-            right: "0",
-            float: "right",
-            marginRight: "20px",
-          }}
-          alt="SLA Labs Logo"
-          src={require("assets/img/slaLogo.png").default}
-        />
         <div
           style={{
             color: "black",
@@ -314,7 +302,7 @@ class Email extends Component {
             visibility: "hidden",
           }}
         >
-          Owned By: Doug Zweber & Created By: Jesse McKinney
+          Created By: Jesse McKinney
         </div>
       </>
     );

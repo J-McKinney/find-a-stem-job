@@ -20,7 +20,7 @@ class Login extends Component {
     passWord: "",
     usernameOne: "admin",
     passwordOne: "123",
-    usernameTwo: "edaguest",
+    usernameTwo: "guest",
     passwordTwo: "gues",
     disabled: true,
     jobs: "",
@@ -33,13 +33,12 @@ class Login extends Component {
 
   // componentDidUpdate() {}
   componentDidUpdate(prevProps) {
-    if (this.props.location !== prevProps.pathname) {
-      window.gtag("config", "GA_MEASUREMENT_ID", {
-        page_title: this.props.location.pathname,
-        page_path: this.props.location.pathname,
-      });
-    }
-    // console.log(this.state.notice);
+    // if (this.props.location !== prevProps.pathname) {
+    //   window.gtag("config", "GA_MEASUREMENT_ID", {
+    //     page_title: this.props.location.pathname,
+    //     page_path: this.props.location.pathname,
+    //   });
+    // }
   }
 
   handleInputChange = (event) => {
@@ -68,12 +67,6 @@ class Login extends Component {
     });
   };
 
-  alertUser = () => {
-    alert(
-      "Confidentiality Notice: The information contained in this website, including any materials, processes, and proprietary business methods, is for the sole use of the intended recipient(s).  It is covered by the Electronic Communications Privacy Act, 18 U.S.C.§ 2510-2521 and is legally privileged. Unauthorized review, use, disclosure or distribution is strictly prohibited. Copying, duplication and/or use of any materials and business methods for personal gain without the written permission of SLA Labs is prohibited."
-    );
-  };
-
   render() {
     return (
       <>
@@ -100,17 +93,21 @@ class Login extends Component {
                 }}
               >
                 <CardHeader>
-                  <img
+                  {/* <img
                     style={{ marginTop: "10px", height: "80px" }}
                     alt="..."
                     src={require("assets/img/gigpilotpng.png").default}
-                  />
-                  <p
-                    style={{ textAlign: "center", marginTop: "10px" }}
+                  /> */}
+                  <h2
+                    style={{
+                      textAlign: "center",
+                      marginTop: "10px",
+                      color: "dodgerBlue",
+                    }}
                     className="title"
                   >
-                    Digital Cluster Ecosystems
-                  </p>
+                    Find Your Next STEM Job
+                  </h2>
                 </CardHeader>
                 <Form>
                   <Row style={{ marginTop: "40px" }}>
@@ -158,7 +155,6 @@ class Login extends Component {
                             cursor: "pointer",
                           }}
                           disabled={this.state.disabled}
-                          onClick={this.alertUser}
                         >
                           <h5 style={{ color: "white" }}>
                             <i className="now-ui-icons ui-1_lock-circle-open" />{" "}
@@ -183,18 +179,7 @@ class Login extends Component {
                 </Form>
                 <Row>
                   <Col md={3} xs={3} />
-                  <Col md={6} xs={6}>
-                    <img
-                      style={{
-                        height: "80px",
-                        width: "150px",
-                        marginTop: "10px",
-                      }}
-                      alt="..."
-                      // src={require("assets/img/SREB.png").default}
-                      src={require("assets/img/EDALogo.png").default}
-                    />
-                  </Col>
+                  <Col md={6} xs={6} />
                   <Col md={3} xs={3} />
                 </Row>
                 <hr />
@@ -256,18 +241,8 @@ class Login extends Component {
               visibility: "hidden",
             }}
           >
-            Owned By: Doug Zweber & Created By: Jesse McKinney
+            Created By: Jesse McKinney
           </div>
-          <img
-            style={{
-              height: "100px",
-              position: "absolute",
-              bottom: "0",
-              right: "0",
-            }}
-            alt="SLA Labs Logo"
-            src={require("assets/img/slaLogo.png").default}
-          />
         </div>
       </>
     );

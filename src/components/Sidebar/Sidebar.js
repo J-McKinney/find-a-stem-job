@@ -88,7 +88,7 @@ function Sidebar(props) {
           })}
         </Nav>
         {/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////*/}
-        <Nav>
+        {/* <Nav>
           <Dropdown
             nav
             isOpen={dropdownOpenTwo}
@@ -196,9 +196,9 @@ function Sidebar(props) {
               </Link>
             </DropdownMenu>
           </Dropdown>
-        </Nav>
+        </Nav> */}
         {/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////*/}
-        <Nav>
+        {/* <Nav>
           <Dropdown
             nav
             isOpen={dropdownOpenOne}
@@ -259,7 +259,7 @@ function Sidebar(props) {
               />
             </DropdownMenu>
           </Dropdown>
-        </Nav>
+        </Nav> */}
         {/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////*/}
         <Nav>
           <Row>
@@ -280,14 +280,6 @@ function Sidebar(props) {
         </Nav>
         {/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////*/}
         <CardBody>
-          <div className="author">
-            <img
-              alt="..."
-              className="avatar border-gray"
-              // src={require("assets/img/SREB.png").default}
-              src={require("assets/img/EDALogo.png").default}
-            />
-          </div>
           <div className="button-container" style={{ textAlign: "center" }}>
             <Button
               style={{ background: "#00000000" }}

@@ -133,7 +133,7 @@ export const dashboardPanelChart = {
       ],
       datasets: [
         {
-          label: "Total GIGs",
+          label: "Total Jobs",
           borderColor: chartColor,
           pointBorderColor: chartColor,
           pointBackgroundColor: "#2c2c2c",
@@ -237,7 +237,7 @@ export const dashboardShippedProductsChart = {
       ],
       datasets: [
         {
-          label: "GIGs Accepted",
+          label: "Jobs Accepted",
           borderColor: "#f96332",
           pointBorderColor: "#FFF",
           pointBackgroundColor: "#f96332",
@@ -278,7 +278,7 @@ export const dashboardAllProductsChart = {
       ],
       datasets: [
         {
-          label: "GIG Completion %",
+          label: "Jobs Found %",
           borderColor: "#18ce0f",
           pointBorderColor: "#FFF",
           pointBackgroundColor: "#18ce0f",
@@ -321,7 +321,7 @@ export const dashboard24HoursPerformanceChart = {
       ],
       datasets: [
         {
-          label: "New GIGs Opened",
+          label: "New Jobs",
           backgroundColor: gradientFill,
           borderColor: "#2CA8FF",
           pointBorderColor: "#FFF",
@@ -468,17 +468,17 @@ export const mapPageGroupedBarChart = {
       labels: ["Remote", "Hybrid", "In-Person"],
       datasets: [
         {
-          label: "STEM GIGs",
+          label: "STEM Jobs",
           data: [5, 8, 9],
           backgroundColor: "rgb(255, 99, 132)",
         },
         {
-          label: "Community GIGs",
+          label: "Community Jobs",
           data: [8, 10, 6],
           backgroundColor: "rgb(54, 162, 235)",
         },
         {
-          label: "DOD GIGs",
+          label: "Tech Jobs",
           data: [12, 7, 10],
           backgroundColor: "rgb(75, 192, 192)",
         },
@@ -509,14 +509,10 @@ export const mapPageSTEMCluster = {
     gradientFill.addColorStop(0, "rgba(128, 182, 244, 0)");
     gradientFill.addColorStop(1, "rgba(249, 99, 59, 0.40)");
     return {
-      labels: [
-        "STEM: K-12",
-        "STEM: Community College",
-        "STEM: Post Grad",
-      ],
+      labels: ["STEM: K-12", "STEM: Community College", "STEM: Post Grad"],
       datasets: [
         {
-          label: "Total GIGs Available",
+          label: "Total Jobs Available",
           data: [12, 19, 13],
           backgroundColor: [
             "rgba(255, 99, 132, 0.2)",
@@ -557,14 +553,10 @@ export const mapPageCommCluster = {
     gradientFill.addColorStop(0, "rgba(128, 182, 244, 0)");
     gradientFill.addColorStop(1, "rgba(249, 99, 59, 0.40)");
     return {
-      labels: [
-        "Community: Tech",
-        "Community: Green",
-        "Community: Hospitality",
-      ],
+      labels: ["Intern", "Mid-Senior", "Senior"],
       datasets: [
         {
-          label: "Total GIGs Available",
+          label: "Total Jobs Available",
           data: [15, 12, 13],
           backgroundColor: [
             "rgba(153, 102, 255, 0.2)",
@@ -605,14 +597,10 @@ export const userDashClearBarChart = {
     gradientFill.addColorStop(0, "rgba(128, 182, 244, 0)");
     gradientFill.addColorStop(1, "rgba(249, 99, 59, 0.40)");
     return {
-      labels: [
-        "DOD: Pre-Apprentice",
-        "DOD: Apprentice",
-        "DOD: Intern",
-      ],
+      labels: ["Intern", "Mid-Senior", "Senior"],
       datasets: [
         {
-          label: "Total GIGs Available",
+          label: "Total Jobs Available",
           data: [14, 10, 11],
           backgroundColor: [
             "rgba(255, 99, 132, 0.2)",
@@ -652,14 +640,10 @@ export const mapPageDODCluster = {
     gradientFill.addColorStop(0, "rgba(128, 182, 244, 0)");
     gradientFill.addColorStop(1, "rgba(249, 99, 59, 0.40)");
     return {
-      labels: [
-        "DOD: Pre-Apprentice",
-        "DOD: Apprentice",
-        "DOD: Intern",
-      ],
+      labels: ["Front of House", "Back of House", "Management"],
       datasets: [
         {
-          label: "Total GIGs Available",
+          label: "Total Jobs Available",
           data: [14, 10, 11],
           backgroundColor: [
             "rgba(255, 99, 132, 0.2)",
@@ -703,13 +687,13 @@ export const userAcceptedCompleted = {
     gradientFill.addColorStop(1, "rgba(249, 99, 59, 0.40)");
     return {
       labels: [
-        "STEM GIGs Completed",
-        "STEM GIGs Accepted",
-        "STEM GIGs Available",
+        "STEM Jobs Completed",
+        "STEM Jobs Accepted",
+        "STEM Jobs Available",
       ],
       datasets: [
         {
-          label: "Total GIGs",
+          label: "Total Jobs",
           data: [35, 25, 25],
           backgroundColor: [
             "rgba(255, 99, 132, 0.2)",
@@ -749,20 +733,20 @@ export const userDashGroupedBarChart = {
     gradientFill.addColorStop(0, "rgba(128, 182, 244, 0)");
     gradientFill.addColorStop(1, "rgba(249, 99, 59, 0.40)");
     return {
-      labels: ["Remote", "Community", "DOD"],
+      labels: ["K-12", "College", "Post-Doc"],
       datasets: [
         {
-          label: "Remote GIGs",
+          label: "Remote Jobs",
           data: [12, 19, 13],
           backgroundColor: "rgb(255, 99, 132)",
         },
         {
-          label: "Hybrid GIGs",
+          label: "Hybrid Jobs",
           data: [13, 20, 15],
           backgroundColor: "rgb(54, 162, 235)",
         },
         {
-          label: "Onsite GIGs",
+          label: "Onsite Jobs",
           data: [10, 13, 22],
           backgroundColor: "rgb(75, 192, 192)",
         },
@@ -794,15 +778,15 @@ export const stemTotalCompletedPlacementChart = {
     gradientFill.addColorStop(1, "rgba(249, 99, 59, 0.40)");
     return {
       labels: [
-        "Total Students in STEM Program",
-        "Total Student Placements",
-        "Total GIGs offered to Students",
-        "Total STEM GIGs Completed",
-        "GIG Participation Rate",
+        "Total Jobs in STEM",
+        "Total Job Placements",
+        "Total Jobs offered",
+        "Total STEM Jobs Filled",
+        "Jobs Participation Rate",
       ],
       datasets: [
         {
-          label: "Total GIGs",
+          label: "Total Jobs",
           data: [25, 25, 35, 35, 60],
           backgroundColor: [
             "rgba(255, 99, 132, 0.2)",
@@ -859,7 +843,7 @@ export const mnthlyCredEarnedCharts = {
       ],
       datasets: [
         {
-          label: "GIGs Accepted",
+          label: "Jobs Accepted",
           borderColor: "#f96332",
           pointBorderColor: "#FFF",
           pointBackgroundColor: "#f96332",
@@ -902,7 +886,7 @@ export const mnthlyCredEarnedChart = {
       ],
       datasets: [
         {
-          label: "New GIGs Opened",
+          label: "New Jobs Open",
           backgroundColor: gradientFill,
           borderColor: "#2CA8FF",
           pointBorderColor: "#FFF",
@@ -964,12 +948,3 @@ export const mnthlyCredEarnedChart = {
   },
 };
 
-
-// module.exports = {
-//   dashboardPanelChart, // Chart for Dashboard view - Will be rendered in panel
-//   dashboardShippedProductsChart, // Chart for Dashboard view - Shipped Products Card
-//   dashboardAllProductsChart, // Chart for Dashboard view - All products Card
-//   dashboard24HoursPerformanceChart, // Chart for Dashboard view - 24 Hours Performance Card
-//   mapPageDoughnutChart,
-//   mapPageGroupedBarChart,
-// };

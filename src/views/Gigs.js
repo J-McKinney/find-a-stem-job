@@ -75,36 +75,36 @@ function Gigs() {
     setOtherLat("33.953028689350816");
     setOtherLng("-83.5234406540099");
     setOtherLab("H");
-    setOtherRate("AI Engineer \n Rating: ★ ★ ★ ★ ★");
-    setOtherMsg("Michael Che");
+    setOtherRate("AI Engineer \n Rating: ★ ★ ★ ★ ☆");
+    setOtherMsg("AI Engineer \n Rating: ★ ★ ★ ★ ☆");
   }
   function coordTwo() {
     setOtherLat("33.87725994346352");
     setOtherLng("-84.06018026831968");
     setOtherLab("R");
     setOtherRate("Cybersecurity Operator \n Rating: ★ ★ ★ ★ ☆");
-    setOtherMsg("John Marx");
+    setOtherMsg("Cybersecurity Operator \n Rating: ★ ★ ★ ★ ☆");
   }
   function coordThree() {
     setOtherLat("33.989273724740094");
     setOtherLng("-84.44046804256497");
     setOtherLab("R");
-    setOtherRate("Data Miner \n Rating: ★ ★ ★ ★ ★");
-    setOtherMsg("Colin Jost");
+    setOtherRate("Data Miner \n Rating: ★ ★ ★ ★ ☆");
+    setOtherMsg("Data Miner \n Rating: ★ ★ ★ ★ ☆");
   }
   function coordFour() {
     setOtherLat("34.21869058176982");
     setOtherLng("-84.17774218900878");
     setOtherLab("OS");
-    setOtherRate("IOT Architect \n Rating: ★ ★ ★ ☆ ☆");
-    setOtherMsg("David Finnigan");
+    setOtherRate("IOT Architect \n Rating: ★ ★ ★ ★ ☆");
+    setOtherMsg("IOT Architect \n Rating: ★ ★ ★ ★ ☆");
   }
   function coordFive() {
     setOtherLat("34.039115629444325");
     setOtherLng("-84.11591660903706");
     setOtherLab("H");
-    setOtherRate("Full Stack Cloud Developer \n Rating: ★ ★ ☆ ☆ ☆");
-    setOtherMsg("Will McCallister");
+    setOtherRate("Full Stack Cloud Developer \n Rating: ★ ★ ★ ★ ☆");
+    setOtherMsg("Full Stack Cloud Developer \n Rating: ★ ★ ★ ★ ☆");
   }
 
   return (
@@ -130,7 +130,7 @@ function Gigs() {
                   }}
                   onClick={() => setModalShowOne(true)}
                 >
-                  Post GIG Assignment
+                  Post Job Assignment
                 </Button>
                 <GigModal
                   show={modalShowOne}
@@ -142,10 +142,10 @@ function Gigs() {
                   <thead className="text-primary">
                     <tr>
                       <th style={{ color: "black", fontWeight: "bold" }}>
-                        GIG Name
+                        Job Name
                       </th>
                       <th style={{ color: "black", fontWeight: "bold" }}>
-                        GIG Description
+                        Job Description
                       </th>
                     </tr>
                   </thead>
@@ -174,35 +174,28 @@ function Gigs() {
                         >
                           Find Location
                         </UncontrolledTooltip>
-                        <a
-                          target="_blank"
-                          href="https://www.coursera.org/learn/machine-learning"
+                        <Button
+                          className="btn-round btn-icon btn-icon-mini btn-neutral"
+                          color="info"
+                          id="tooltip731609860"
+                          type="button"
                         >
-                          <Button
-                            className="btn-round btn-icon btn-icon-mini btn-neutral"
-                            color="info"
-                            id="tooltip731609860"
-                            type="button"
-                          >
-                            <FontAwesomeIcon icon={faGraduationCap} />
-                          </Button>
-                        </a>
+                          <FontAwesomeIcon icon={faGraduationCap} />
+                        </Button>
                         <UncontrolledTooltip
                           delay={0}
                           target="tooltip731609860"
                         >
-                          AI Machine Learning Module
+                          Detailed Job Description
                         </UncontrolledTooltip>
-                        <a target="_blank" href="https://zoom.us/">
-                          <Button
-                            className="btn-round btn-icon btn-icon-mini btn-neutral"
-                            color="success"
-                            id="tooltip731609861"
-                            type="button"
-                          >
-                            <i className="fas fa-video"></i>
-                          </Button>
-                        </a>
+                        <Button
+                          className="btn-round btn-icon btn-icon-mini btn-neutral"
+                          color="success"
+                          id="tooltip731609861"
+                          type="button"
+                        >
+                          <i className="fas fa-video"></i>
+                        </Button>
                         <UncontrolledTooltip
                           delay={0}
                           target="tooltip731609861"
@@ -221,7 +214,7 @@ function Gigs() {
                           delay={0}
                           target="tooltip923217206"
                         >
-                          Edit GIG
+                          Edit Job
                         </UncontrolledTooltip>
                       </td>
                     </tr>
@@ -251,35 +244,28 @@ function Gigs() {
                         >
                           Find Location
                         </UncontrolledTooltip>
-                        <a
-                          target="_blank"
-                          href="https://www.coursera.org/learn/cybersecurity-for-everyone"
+                        <Button
+                          className="btn-round btn-icon btn-icon-mini btn-neutral"
+                          color="info"
+                          id="tooltip731609862"
+                          type="button"
                         >
-                          <Button
-                            className="btn-round btn-icon btn-icon-mini btn-neutral"
-                            color="info"
-                            id="tooltip731609862"
-                            type="button"
-                          >
-                            <FontAwesomeIcon icon={faGraduationCap} />
-                          </Button>
-                        </a>
+                          <FontAwesomeIcon icon={faGraduationCap} />
+                        </Button>
                         <UncontrolledTooltip
                           delay={0}
                           target="tooltip731609862"
                         >
-                          Cybersecurity Learning Module
+                          Detailed Job Description
                         </UncontrolledTooltip>
-                        <a target="_blank" href="https://www.bluejeans.com/">
-                          <Button
-                            className="btn-round btn-icon btn-icon-mini btn-neutral"
-                            color="success"
-                            id="tooltip731609863"
-                            type="button"
-                          >
-                            <i className="fas fa-video"></i>
-                          </Button>
-                        </a>
+                        <Button
+                          className="btn-round btn-icon btn-icon-mini btn-neutral"
+                          color="success"
+                          id="tooltip731609863"
+                          type="button"
+                        >
+                          <i className="fas fa-video"></i>
+                        </Button>
                         <UncontrolledTooltip
                           delay={0}
                           target="tooltip731609863"
@@ -298,7 +284,7 @@ function Gigs() {
                           delay={0}
                           target="tooltip923217207"
                         >
-                          Edit GIG
+                          Edit Job
                         </UncontrolledTooltip>
                       </td>
                     </tr>
@@ -327,38 +313,28 @@ function Gigs() {
                         >
                           Find Location
                         </UncontrolledTooltip>
-                        <a
-                          target="_blank"
-                          href="https://www.coursera.org/learn/process-mining"
+                        <Button
+                          className="btn-round btn-icon btn-icon-mini btn-neutral"
+                          color="info"
+                          id="tooltip731609864"
+                          type="button"
                         >
-                          <Button
-                            className="btn-round btn-icon btn-icon-mini btn-neutral"
-                            color="info"
-                            id="tooltip731609864"
-                            type="button"
-                          >
-                            <FontAwesomeIcon icon={faGraduationCap} />
-                          </Button>
-                        </a>
+                          <FontAwesomeIcon icon={faGraduationCap} />
+                        </Button>
                         <UncontrolledTooltip
                           delay={0}
                           target="tooltip731609864"
                         >
-                          Data Mining Learning Module
+                          Detailed Job Description
                         </UncontrolledTooltip>
-                        <a
-                          target="_blank"
-                          href="https://www.microsoft.com/en-us/microsoft-teams/group-chat-software"
+                        <Button
+                          className="btn-round btn-icon btn-icon-mini btn-neutral"
+                          color="success"
+                          id="tooltip731609865"
+                          type="button"
                         >
-                          <Button
-                            className="btn-round btn-icon btn-icon-mini btn-neutral"
-                            color="success"
-                            id="tooltip731609865"
-                            type="button"
-                          >
-                            <i className="fas fa-video"></i>
-                          </Button>
-                        </a>
+                          <i className="fas fa-video"></i>
+                        </Button>
                         <UncontrolledTooltip
                           delay={0}
                           target="tooltip731609865"
@@ -377,7 +353,7 @@ function Gigs() {
                           delay={0}
                           target="tooltip923217208"
                         >
-                          Edit GIG
+                          Edit Job
                         </UncontrolledTooltip>
                       </td>
                     </tr>
@@ -405,35 +381,28 @@ function Gigs() {
                         >
                           Find Location
                         </UncontrolledTooltip>
-                        <a
-                          target="_blank"
-                          href="https://www.coursera.org/learn/iot-architecture"
+                        <Button
+                          className="btn-round btn-icon btn-icon-mini btn-neutral"
+                          color="info"
+                          id="tooltip7316098622"
+                          type="button"
                         >
-                          <Button
-                            className="btn-round btn-icon btn-icon-mini btn-neutral"
-                            color="info"
-                            id="tooltip7316098622"
-                            type="button"
-                          >
-                            <FontAwesomeIcon icon={faGraduationCap} />
-                          </Button>
-                        </a>
+                          <FontAwesomeIcon icon={faGraduationCap} />
+                        </Button>
                         <UncontrolledTooltip
                           delay={0}
                           target="tooltip7316098622"
                         >
-                          IOT Learning Module
+                          Detailed Job Description
                         </UncontrolledTooltip>
-                        <a target="_blank" href="https://www.webex.com/">
-                          <Button
-                            className="btn-round btn-icon btn-icon-mini btn-neutral"
-                            color="success"
-                            id="tooltip731609863"
-                            type="button"
-                          >
-                            <i className="fas fa-video"></i>
-                          </Button>
-                        </a>
+                        <Button
+                          className="btn-round btn-icon btn-icon-mini btn-neutral"
+                          color="success"
+                          id="tooltip731609863"
+                          type="button"
+                        >
+                          <i className="fas fa-video"></i>
+                        </Button>
                         <UncontrolledTooltip
                           delay={0}
                           target="tooltip731609863"
@@ -452,7 +421,7 @@ function Gigs() {
                           delay={0}
                           target="tooltip923217207"
                         >
-                          Edit GIG
+                          Edit Job
                         </UncontrolledTooltip>
                       </td>
                     </tr>
@@ -479,35 +448,28 @@ function Gigs() {
                         >
                           Find Location
                         </UncontrolledTooltip>
-                        <a
-                          target="_blank"
-                          href="https://www.coursera.org/professional-certificates/ibm-full-stack-cloud-developer"
+                        <Button
+                          className="btn-round btn-icon btn-icon-mini btn-neutral"
+                          color="info"
+                          id="tooltip7316098621"
+                          type="button"
                         >
-                          <Button
-                            className="btn-round btn-icon btn-icon-mini btn-neutral"
-                            color="info"
-                            id="tooltip7316098621"
-                            type="button"
-                          >
-                            <FontAwesomeIcon icon={faGraduationCap} />
-                          </Button>
-                        </a>
+                          <FontAwesomeIcon icon={faGraduationCap} />
+                        </Button>
                         <UncontrolledTooltip
                           delay={0}
                           target="tooltip7316098621"
                         >
-                          Cloud Developer Learning Module
+                          Detailed Job Description
                         </UncontrolledTooltip>
-                        <a target="_blank" href="https://zoom.us/">
-                          <Button
-                            className="btn-round btn-icon btn-icon-mini btn-neutral"
-                            color="success"
-                            id="tooltip731609863"
-                            type="button"
-                          >
-                            <i className="fas fa-video"></i>
-                          </Button>
-                        </a>
+                        <Button
+                          className="btn-round btn-icon btn-icon-mini btn-neutral"
+                          color="success"
+                          id="tooltip731609863"
+                          type="button"
+                        >
+                          <i className="fas fa-video"></i>
+                        </Button>
                         <UncontrolledTooltip
                           delay={0}
                           target="tooltip731609863"
@@ -526,7 +488,7 @@ function Gigs() {
                           delay={0}
                           target="tooltip923217207"
                         >
-                          Edit GIG
+                          Edit Job
                         </UncontrolledTooltip>
                       </td>
                     </tr>
@@ -558,18 +520,6 @@ function Gigs() {
           </Col>
         </Row>
       </div>
-      <img
-        style={{
-          height: "50px",
-          position: "static",
-          bottom: "0",
-          right: "0",
-          float: "right",
-          marginRight: "20px",
-        }}
-        alt="SLA Labs Logo"
-        src={require("assets/img/slaLogo.png").default}
-      />
       <div
         style={{
           color: "black",
@@ -579,7 +529,7 @@ function Gigs() {
           visibility: "hidden",
         }}
       >
-        Owned By: Doug Zweber & Created By: Jesse McKinney
+        Created By: Jesse McKinney
       </div>
     </>
   );

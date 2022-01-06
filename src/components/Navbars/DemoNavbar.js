@@ -121,24 +121,6 @@ function DemoNavbar(props) {
           <span className="navbar-toggler-bar navbar-kebab" />
         </NavbarToggler>
         <Collapse isOpen={isOpen} navbar className="justify-content-end">
-        
-          <form>
-            {/* <InputGroup className="no-border">
-              <Input placeholder="Search..." />
-              <InputGroupAddon addonType="append">
-                <InputGroupText>
-                  <i className="now-ui-icons ui-1_zoom-bold" />
-                </InputGroupText>
-              </InputGroupAddon>
-            </InputGroup> */}
-            <img
-              style={{ height: "60px" }}
-              alt="..."
-              // src={require("assets/img/SREB.png").default}
-              src={require("assets/img/EDALogo.png").default}
-            />
-          </form>
-
           <Nav navbar>
             <NavItem>
               <Link to="/admin/email" className="nav-link">

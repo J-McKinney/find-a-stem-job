@@ -49,9 +49,6 @@ function Admin(props) {
             );
           })}
           <Redirect from="/" to="/admin/dashboard" />
-          {/* ////////////////////////////////////////////////////////////// */}
-          {/* <Redirect from="/admin" to="/admin/dashboard" /> */}
-          {/* ////////////////////////////////////////////////////////////// */}
         </Switch>
       </div>
       <FixedPlugin

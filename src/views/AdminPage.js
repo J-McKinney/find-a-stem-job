@@ -15,8 +15,8 @@ import PanelHeader from "components/PanelHeader/PanelHeader.js";
 function AdminPage() {
   return (
     <>
-      <PanelHeader size="sm" style={{ overflowX: "hidden !important" }} />
-      <div style={{ overflow: "hidden !important" }}>
+      <PanelHeader size="sm" style={{ overflowX: "hidden" }} />
+      <div style={{ overflow: "hidden" }}>
         <Row>
           <Col md="8">
             <Card
@@ -243,28 +243,26 @@ function AdminPage() {
                 <div className="author">
                   <a href="#jesse" onClick={(e) => e.preventDefault()}>
                     <img
-                      style={{ marginTop: "40px", height: "40px" }}
-                      // className="avatar border-gray"
-                      // src={require("assets/img/GIGPilotLogo.png").default}
+                      style={{ marginTop: "40px", height: "120px" }}
                       alt="..."
-                      src={require("assets/img/gigpilotpng.png").default}
+                      src={require("assets/img/Jesse.jpg").default}
                     />
                     <h5 style={{ color: "dodgerblue" }} className="title">
-                      SLA Labs LLC
+                      Full Stack Flex Web Developer
                     </h5>
                   </a>
                   <div className="description">
                     <a href="mailto:SLALabs@mail.com">
                       <div style={{ color: "dodgerblue" }}>
-                        SLALabs@mail.com
+                        jessemckinney513@mail.com
                       </div>
                     </a>
                   </div>
                 </div>
                 <p className="description text-center">
-                  "The Leaders in <br />
-                  Innovation & Technology To <br />
-                  Brighten Your Future."
+                  "I love creating <br />
+                  beautiful websites at <br />
+                  lightening speed."
                 </p>
               </CardBody>
               <hr />
@@ -317,18 +315,6 @@ function AdminPage() {
           </Col>
         </Row>
       </div>
-      <img
-        style={{
-          height: "50px",
-          position: "static",
-          bottom: "0",
-          right: "0",
-          float: "right",
-          marginRight: "20px",
-        }}
-        alt="SLA Labs Logo"
-        src={require("assets/img/slaLogo.png").default}
-      />
       <div
         style={{
           color: "black",
@@ -336,9 +322,10 @@ function AdminPage() {
           bottom: "0",
           left: "0",
           visibility: "hidden",
+          overflowX: "hidden",
         }}
       >
-        Owned By: Doug Zweber & Created By: Jesse McKinney
+        Created By: Jesse McKinney
       </div>
     </>
   );

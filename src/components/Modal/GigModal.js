@@ -22,7 +22,7 @@ function GigModal(props) {
         centered
       >
         <Modal.Body>
-          <h2 className="title">Post GIG Assignment</h2>
+          <h2 className="title">Post Job Assignment</h2>
           {/* Post GIG Assignments Here */}
           <Col md={12} xs={12}>
             <Card
@@ -37,7 +37,7 @@ function GigModal(props) {
                   <Row>
                     <Col className="pr-1" md="6">
                       <FormGroup>
-                        <label>GIG Name</label>
+                        <label>Job Name</label>
                         <Input placeholder="GIG Name" type="text" />
                       </FormGroup>
                     </Col>
@@ -162,23 +162,23 @@ function GigModal(props) {
                     </Col>
                     <Col className="pr-1" md="3" xs={12}>
                       <FormGroup tag="fieldset">
-                        <label>Cluster Type</label>
+                        <label>Job Type</label>
                         <FormGroup check>
                           <Label check>
                             <Input type="radio" name="radio3" />
-                            STEM Learning Cluster
+                            STEM Job
                           </Label>
                         </FormGroup>
                         <FormGroup check>
                           <Label check>
                             <Input type="radio" name="radio3" />
-                            Community Service Cluster
+                            Community Job
                           </Label>
                         </FormGroup>
                         <FormGroup check>
                           <Label check>
                             <Input type="radio" name="radio3" />
-                            DOD Research Cluster
+                            Technology Job
                           </Label>
                         </FormGroup>
                       </FormGroup>
@@ -222,9 +222,9 @@ function GigModal(props) {
                     {/* Add Cluster Invitation */}
                     <Col className="pr-1" md="8" xs={12}>
                       <FormGroup>
-                        <label>Add Learning Module Link:</label>
+                        <label>Add Job Link:</label>
                         <Input
-                          placeholder="Add Learning Link Here"
+                          placeholder="Add Job Here"
                           type="text"
                         />
                       </FormGroup>
@@ -240,7 +240,7 @@ function GigModal(props) {
                           marginTop: "25px",
                         }}
                       >
-                        Add Learning Module
+                        Add Link
                       </Button>
                     </Col>
                     <Col className="pr-1" md={12} xs={12}>
@@ -255,14 +255,13 @@ function GigModal(props) {
                               marginBottom: "25px",
                             }}
                           >
-                            Sample Cybersecurity Learning Module
                           </label>
                         </a>
                       </FormGroup>
                     </Col>
                     {/* ///////////////////////////////////////////////////////////////////////// */}
                     <Col className="pr-1" md="12" xs={12}>
-                      <label>And</label>
+                      <label>And/Or</label>
                     </Col>
                     <Col
                       style={{ marginTop: "10px" }}
@@ -336,7 +335,7 @@ function GigModal(props) {
                               fontWeight: "bold",
                             }}
                           >
-                            <p>Upload GIG Assignment</p>
+                            <p>Upload Job Assignment</p>
                           </label>
                         </FormGroup>
                       </Button>
@@ -375,7 +374,7 @@ function GigModal(props) {
                         }}
                         onClick={props.onHide}
                       >
-                        Post GIG Assignment (FREE)
+                        Post Job Assignment (FREE)
                       </Button>
                     </Col>
                     {/* Post GIG Assignment (FREE) */}
@@ -391,7 +390,7 @@ function GigModal(props) {
                         }}
                         onClick={props.onHide}
                       >
-                        Post GIG Assignment (PRO)
+                        Post Job Assignment (PRO)
                       </Button>
                     </Col>
                     {/* Post GIG Assignment (PRO) */}
@@ -412,7 +411,7 @@ function GigModal(props) {
                         }}
                         onClick={props.onHide}
                       >
-                        Save GIG Assignment
+                        Save Job Assignment
                       </Button>
                     </Col>
                     {/* Save GIG Assignment */}

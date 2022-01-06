@@ -38,7 +38,7 @@ function Dashboard() {
           <Col xs={12} md={4}>
             <Card className="card-chart">
               <CardHeader>
-                <CardTitle tag="h4">Monthly GIGs Accepted</CardTitle>
+                <CardTitle tag="h4">Monthly Jobs Accepted</CardTitle>
               </CardHeader>
               <CardBody>
                 <div className="chart-area">
@@ -58,7 +58,7 @@ function Dashboard() {
           <Col xs={12} md={4}>
             <Card className="card-chart">
               <CardHeader>
-                <CardTitle tag="h4">GIG Completion Percentage</CardTitle>
+                <CardTitle tag="h4">Jobs Found Percentage</CardTitle>
               </CardHeader>
               <CardBody>
                 <div className="chart-area">
@@ -78,7 +78,7 @@ function Dashboard() {
           <Col xs={12} md={4}>
             <Card className="card-chart">
               <CardHeader>
-                <CardTitle tag="h4">Monthly GIGs Opened</CardTitle>
+                <CardTitle tag="h4">Monthly Job Openings</CardTitle>
               </CardHeader>
               <CardBody>
                 <div className="chart-area">
@@ -116,7 +116,7 @@ function Dashboard() {
                       <tr>
                         <td>John Marx</td>
                         <td className="text-left">
-                          Just got in touch with the new GIG employee on that
+                          Just got in touch with the new employee on that
                           freelance work. You should check it out.
                         </td>
                         <td className="td-actions text-right">
@@ -152,7 +152,7 @@ function Dashboard() {
                             delay={0}
                             target="tooltip731609870"
                           >
-                            Add To Your Cluster
+                            Add To Your Contacts
                           </UncontrolledTooltip>
                           {/*//////////////////////////////////////////////////*/}
                           <Button
@@ -210,7 +210,7 @@ function Dashboard() {
                             delay={0}
                             target="tooltip731609869"
                           >
-                            Add To Your Cluster
+                            Add To Your Contacts
                           </UncontrolledTooltip>
                           {/*//////////////////////////////////////////////////*/}
                           <Button
@@ -269,7 +269,7 @@ function Dashboard() {
                             delay={0}
                             target="tooltip731609868"
                           >
-                            Add To Your Cluster
+                            Add To Your Contacts
                           </UncontrolledTooltip>
                           {/*//////////////////////////////////////////////////*/}
                           <Button
@@ -309,7 +309,7 @@ function Dashboard() {
               }}
             >
               <CardHeader>
-                <CardTitle tag="h4">Your Active GIG Employees</CardTitle>
+                <CardTitle tag="h4">Your Active Job Candidates</CardTitle>
               </CardHeader>
               <CardBody>
                 <Table responsive>
@@ -365,18 +365,6 @@ function Dashboard() {
           </Col>
         </Row>
       </div>
-      <img
-        style={{
-          height: "50px",
-          position: "static",
-          bottom: "0",
-          right: "0",
-          float: "right",
-          marginRight: "20px",
-        }}
-        alt="SLA Labs Logo"
-        src={require("assets/img/slaLogo.png").default}
-      />
       <div
         style={{
           color: "black",
@@ -385,8 +373,7 @@ function Dashboard() {
           left: "0",
           visibility: "hidden",
         }}
-      >
-        Owned By: Doug Zweber & Created By: Jesse McKinney
+      >Created By: Jesse McKinney
       </div>
     </>
   );

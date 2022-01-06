@@ -19,16 +19,9 @@ import {
   mapPageSTEMCluster,
   mapPageCommCluster,
   mapPageDODCluster,
-  mapPagePieChart,
   mapPageGroupedBarChart,
 } from "variables/charts.js";
 import MyModal from "components/Modal/MyModal.js";
-import NewHireDev from "../../assets/img/NewHireDevelopment.png";
-import ConnectWorkers from "../../assets/img/ConnectingWorkers.png";
-import ContractDev from "../../assets/img/ContractDevelopment.png";
-import NewTech from "../../assets/img/TestingNewTech.png";
-import NatDeploy from "../../assets/img/ScaleableForNationalDeployments.png";
-import BusinessDev from "../../assets/img/BusinessDevelopment.png";
 import Styles from "../style.module.css";
 
 const MapWrapper = () => {
@@ -176,7 +169,7 @@ function FullScreenMap() {
                         style={{
                           height: "20px",
                         }}
-                        alt="SLA Labs Logo"
+                        alt="..."
                         src={require("assets/img/recruit.png").default}
                       />{" "}
                       Project Recruitment
@@ -184,10 +177,10 @@ function FullScreenMap() {
                     <MyModal
                       heading="Recruitment"
                       titleone="New Hire Development"
-                      imgone={NewHireDev}
+                      // imgone={NewHireDev}
                       altone="New Hire Development"
                       titletwo="Connecting Workers"
-                      imgtwo={ConnectWorkers}
+                      // imgtwo={ConnectWorkers}
                       alttwo="Connecting Workers"
                       show={modalShowOne}
                       onHide={() => setModalShowOne(false)}
@@ -212,10 +205,10 @@ function FullScreenMap() {
                     <MyModal
                       heading="Project Management"
                       titleone="Contract Development"
-                      imgone={ContractDev}
+                      // imgone={ContractDev}
                       altone="Contract Development"
                       titletwo="Testing New Tech"
-                      imgtwo={NewTech}
+                      // imgtwo={NewTech}
                       alttwo="Testing New Tech"
                       show={modalShowTwo}
                       onHide={() => setModalShowTwo(false)}
@@ -235,7 +228,7 @@ function FullScreenMap() {
                         style={{
                           height: "20px",
                         }}
-                        alt="SLA Labs Logo"
+                        alt="..."
                         src={require("assets/img/train.png").default}
                       />{" "}
                       Project <br />
@@ -244,10 +237,10 @@ function FullScreenMap() {
                     <MyModal
                       heading="Project Training"
                       titleone="New Hire Development"
-                      imgone={NewHireDev}
+                      // imgone={NewHireDev}
                       altone="New Hire Development"
                       titletwo="Connecting Workers"
-                      imgtwo={ConnectWorkers}
+                      // imgtwo={ConnectWorkers}
                       alttwo="Connecting Workers"
                       show={modalShowThree}
                       onHide={() => setModalShowThree(false)}
@@ -272,11 +265,11 @@ function FullScreenMap() {
                     </div>
                     <MyModal
                       heading="Project Launch"
-                      titleone="Scaleable For National Deployments"
-                      imgone={NatDeploy}
-                      altone="Scaleable For National Deployments"
+                      titleone="Communications Link"
+                      // imgone={NatDeploy}
+                      altone="Communications Link"
                       titletwo="Business Development"
-                      imgtwo={BusinessDev}
+                      // imgtwo={BusinessDev}
                       alttwo="Business Development"
                       show={modalShowFour}
                       onHide={() => setModalShowFour(false)}
@@ -299,11 +292,11 @@ function FullScreenMap() {
                     </div>
                     <MyModal
                       heading="Communications Link"
-                      titleone="Scaleable For National Deployments"
-                      imgone={NatDeploy}
-                      altone="Scaleable For National Deployments"
+                      titleone="Communications Link"
+                      // imgone={NatDeploy}
+                      altone="Communications Link"
                       titletwo="Business Development"
-                      imgtwo={BusinessDev}
+                      // imgtwo={BusinessDev}
                       alttwo="Business Development"
                       show={modalShowFive}
                       onHide={() => setModalShowFive(false)}
@@ -350,7 +343,7 @@ function FullScreenMap() {
                   className="card-chart"
                 >
                   <CardHeader>
-                    <CardTitle tag="h4">STEM Clusters:</CardTitle>
+                    <CardTitle tag="h4">STEM:</CardTitle>
                   </CardHeader>
                   <CardBody>
                     <div className="chart-area">
@@ -376,7 +369,7 @@ function FullScreenMap() {
                   className="card-chart"
                 >
                   <CardHeader>
-                    <CardTitle tag="h4">Community Clusters:</CardTitle>
+                    <CardTitle tag="h4">Technology:</CardTitle>
                   </CardHeader>
                   <CardBody>
                     <div className="chart-area">
@@ -402,7 +395,7 @@ function FullScreenMap() {
                   className="card-chart"
                 >
                   <CardHeader>
-                    <CardTitle tag="h4">DOD Clusters:</CardTitle>
+                    <CardTitle tag="h4">Hospitality:</CardTitle>
                   </CardHeader>
                   <CardBody>
                     <div className="chart-area">
@@ -421,6 +414,7 @@ function FullScreenMap() {
               </Col>
             </Row>
             <Row>
+              <Col xs={12} md={2} />
               <Col xs={12} md={4}>
                 <Card
                   style={{
@@ -430,7 +424,7 @@ function FullScreenMap() {
                   className="card-chart"
                 >
                   <CardHeader>
-                    <CardTitle tag="h4">GIG Completion Percentage</CardTitle>
+                    <CardTitle tag="h4">Jobs Found Percentage</CardTitle>
                   </CardHeader>
                   <CardBody>
                     <div className="chart-area">
@@ -456,7 +450,7 @@ function FullScreenMap() {
                   className="card-chart"
                 >
                   <CardHeader>
-                    <CardTitle tag="h4">GIGs Accepted this Week</CardTitle>
+                    <CardTitle tag="h4">Jobs Accepted this Week</CardTitle>
                   </CardHeader>
                   <CardBody>
                     <div className="chart-area">
@@ -473,49 +467,11 @@ function FullScreenMap() {
                   </CardFooter>
                 </Card>
               </Col>
-              <Col xs={12} md={4}>
-                <Card
-                  style={{
-                    boxShadow:
-                      "-1px -1px 2px 2px hsl(0, 0%, 79%), 5px 5px 5px 3px hsl(0, 0%, 39%)",
-                  }}
-                  className="card-chart"
-                >
-                  <CardHeader>
-                    <CardTitle tag="h4">GIGs Accepted Today</CardTitle>
-                  </CardHeader>
-                  <CardBody>
-                    <div className="chart-area">
-                      <Pie
-                        data={mapPagePieChart.data}
-                        options={mapPagePieChart.options}
-                      />
-                    </div>
-                  </CardBody>
-                  <CardFooter>
-                    <div className="stats">
-                      <i className="now-ui-icons arrows-1_refresh-69" />
-                      Just Updated
-                    </div>
-                  </CardFooter>
-                </Card>
-              </Col>
+              <Col xs={12} md={2} />
             </Row>
           </Col>
         </Row>
       </div>
-      <img
-        style={{
-          height: "50px",
-          position: "static",
-          bottom: "0",
-          right: "0",
-          float: "right",
-          marginRight: "20px",
-        }}
-        alt="SLA Labs Logo"
-        src={require("assets/img/slaLogo.png").default}
-      />
       <div
         style={{
           color: "black",
@@ -525,7 +481,7 @@ function FullScreenMap() {
           visibility: "hidden",
         }}
       >
-        Owned By: Doug Zweber & Created By: Jesse McKinney
+        Created By: Jesse McKinney
       </div>
     </>
   );
