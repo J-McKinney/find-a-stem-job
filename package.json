@@ -1,5 +1,7 @@
 {
   "name": "find-a-stem-job",
+  "Author": "Jesse McKinney",
+  "homepage": "https://j-mckinney.github.io/find-a-stem-job/",
   "version": "0.1.0",
   "main": "dist/index.js",
   "private": true,
