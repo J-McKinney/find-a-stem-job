@@ -1,0 +1,326 @@
+[
+    {
+        "title": "Onsite",
+        "label": "Augusta Technical College",
+        "lat": 33.7899124969126,
+        "lng": -84.234454883044
+    },
+    {
+        "title": "Onsite",
+        "label": "Gwinnett Technical College",
+        "lat": 33.78263461080614,
+        "lng": -84.32406561048924
+    },
+    {
+        "title": "Onsite",
+        "label": "Georgia Military College",
+        "lat": 33.07893954310344,
+        "lng": -83.22344377316962
+    },
+    {
+        "title": "Onsite",
+        "label": "University of Georgia",
+        "lat": 33.94800606331418,
+        "lng": -83.37732717768762
+    },
+    {
+        "title": "Onsite",
+        "label": "Georgia College",
+        "lat": 33.0804462206821,
+        "lng": -83.23193516526752
+    },
+    {
+        "title": "Onsite",
+        "label": "University of North Georgia",
+        "lat": 34.52786176744483,
+        "lng": -83.98444428303956
+    },
+    {
+        "title": "Onsite",
+        "label": "Clark Atlanta University",
+        "lat": 33.751569112990765,
+        "lng": -84.41123217138536
+    },
+    {
+        "title": "Onsite",
+        "label": "Shorter University",
+        "lat": 34.25922830124847,
+        "lng": -85.19597128303532
+    },
+    {
+        "title": "Onsite",
+        "label": "North Oconee High School",
+        "lat": 33.87725994346352,
+        "lng": -83.5234406540099
+    },
+    {
+        "title": "Onsite",
+        "label": "Jefferson High School",
+        "lat": 34.12222664727131,
+        "lng": -83.58188963345904
+    },
+    {
+        "title": "Onsite",
+        "label": "Dodgen Middle School",
+        "lat": 33.9911737604075,
+        "lng": -84.44495030395345
+    },
+    {
+        "title": "Onsite",
+        "label": "Mabry Middle School",
+        "lat": 34.059969286501385,
+        "lng": -84.47033664099388
+    },
+    {
+        "title": "Onsite",
+        "label": "North Gwinnett Middle School",
+        "lat": 34.07909800630962,
+        "lng": -84.06122863047952
+    },
+    {
+        "title": "Onsite",
+        "label": "Daves Creek Elementary School",
+        "lat": 34.13604122438488,
+        "lng": -84.14260631380864
+    },
+    {
+        "title": "Onsite",
+        "label": "Sharon Elementary School",
+        "lat": 34.103603457184704,
+        "lng": -84.13629833710085
+    },
+    {
+        "title": "Onsite",
+        "label": "Still Family Farm, LLC",
+        "lat": 33.90412008881178,
+        "lng": -84.71877394095412
+    },
+    {
+        "title": "Onsite",
+        "label": "MS FARM LIMITED",
+        "lat": 33.84875210303654,
+        "lng": -84.36641139916215
+    },
+    {
+        "title": "Onsite",
+        "label": "Berry Patch Farms",
+        "lat": 34.10932262647623,
+        "lng": -84.42375389823505
+    },
+    {
+        "title": "Onsite",
+        "label": "Big Springs Farms",
+        "lat": 34.15190777588534,
+        "lng": -84.38601779915585
+    },
+    {
+        "title": "Onsite",
+        "label": "Triple B & S Farms",
+        "lat": 33.93559766184062,
+        "lng": -84.36204138667804
+    },
+    {
+        "title": "Onsite",
+        "label": "Maxham Farms",
+        "lat": 33.9054555512373,
+        "lng": -84.42781004913182
+    },
+    {
+        "title": "Onsite",
+        "label": "Ashley Family Farm LLC",
+        "lat": 33.955885566486856,
+        "lng": -84.28750465760801
+    },
+    {
+        "title": "Onsite",
+        "label": "Gee Farm",
+        "lat": 33.899398622887745,
+        "lng": -84.60661716844461
+    },
+    {
+        "title": "Onsite",
+        "label": "Cracker Barrel",
+        "lat": 33.807134798436046,
+        "lng": -84.53685429678191
+    },
+    {
+        "title": "Onsite",
+        "label": "Ray's on the River",
+        "lat": 33.699349092747354,
+        "lng": -84.51904295921601
+    },
+    {
+        "title": "Onsite",
+        "label": "Yard House",
+        "lat": 33.78263461080614,
+        "lng": -84.32406561048924
+    },
+    {
+        "title": "Onsite",
+        "label": "The Bowl",
+        "lat": 33.824781297347705,
+        "lng": -84.47180882021888
+    },
+    {
+        "title": "Onsite",
+        "label": "Chic-fil-a",
+        "lat": 33.766382424534186,
+        "lng": -84.26966828189197
+    },
+    {
+        "title": "Onsite",
+        "label": "Canoe",
+        "lat": 33.97984282714402,
+        "lng": -84.35285244024826
+    },
+    {
+        "title": "Onsite",
+        "label": "Hikaru Ramen",
+        "lat": 33.27233909278364,
+        "lng": -83.05405307848439
+    },
+    {
+        "title": "Onsite",
+        "label": "Falafel Cafe",
+        "lat": 33.93390740659755,
+        "lng": -84.96072176794321
+    },
+    {
+        "title": "Onsite",
+        "label": "Soul Food Train",
+        "lat": 34.069794508223474,
+        "lng": -84.08531244272295
+    },
+    {
+        "title": "Onsite",
+        "label": "Fort Gordon",
+        "lat": 33.43015764745154,
+        "lng": -82.12614060028285
+    },
+    {
+        "title": "Onsite",
+        "label": "Robins AFB",
+        "lat": 32.6400038962996,
+        "lng": -83.59171777278375
+    },
+    {
+        "title": "Onsite",
+        "label": "Dobbins Air Reserve Base",
+        "lat": 33.91886550033301,
+        "lng": -84.50464657388633
+    },
+    {
+        "title": "Onsite",
+        "label": "Fort Benning",
+        "lat": 32.39127720036821,
+        "lng": -84.82290750481575
+    },
+    {
+        "title": "Onsite",
+        "label": "Clay National Guard Center",
+        "lat": 33.91386748009685,
+        "lng": -84.52846994560971
+    },
+    {
+        "title": "Onsite",
+        "label": "Georgia State Defense Force Headquarters",
+        "lat": 33.91372464772484,
+        "lng": -84.53319138306901
+    },
+    {
+        "title": "Onsite",
+        "label": "US Defense Contract Audit Agency",
+        "lat": 33.897093725680335,
+        "lng": -84.4835195830216
+    },
+    {
+        "title": "Onsite",
+        "label": "US Army-Fort Stewart",
+        "lat": 31.871106515436196,
+        "lng": -81.62135879827156
+    },
+    {
+        "title": "Onsite",
+        "label": "Hunter Army Airfield",
+        "lat": 32.01124454726715,
+        "lng": -81.14701784388058
+    },
+    {
+        "title": "Onsite",
+        "label": "Fort Gillem",
+        "lat": 33.62024030202808,
+        "lng": -84.32889630263172
+    },
+    {
+        "title": "Onsite",
+        "label": "Fort McPherson",
+        "lat": 33.707746967924834,
+        "lng": -84.43411780904164
+    },
+    {
+        "title": "Onsite",
+        "label": "Office of the Adjutant General",
+        "lat": 33.913250528783784,
+        "lng": -84.53305740565226
+    },
+    {
+        "title": "Onsite",
+        "label": "Joint Operations",
+        "lat": 33.918883257825776,
+        "lng": -84.50476636778612
+    },
+    {
+        "title": "Onsite",
+        "label": "United States Department-The Air Frc",
+        "lat": 33.899331997530716,
+        "lng": -84.47470616825969
+    },
+    {
+        "title": "Onsite",
+        "label": "Georgia State Defense Force OPFOR Battalion",
+        "lat": 33.91307545656481,
+        "lng": -84.53327506149068
+    },
+    {
+        "title": "Onsite",
+        "label": "Georgia Air National Guard",
+        "lat": 33.89559507925169,
+        "lng": -84.59034134330939
+    },
+    {
+        "title": "Onsite",
+        "label": "A Company, 1-121 Infantry, Georgia Army National Guard",
+        "lat": 33.959972212066184,
+        "lng": -83.9723629544459
+    },
+    {
+        "title": "Onsite",
+        "label": "Camp Frank D. Merrill",
+        "lat": 34.62748094436676,
+        "lng": -84.10422575950473
+    },
+    {
+        "title": "Onsite",
+        "label": "US Army Camp Merril",
+        "lat": 34.6272723738778,
+        "lng": -84.10480511559008
+    },
+    {
+        "title": "Onsite",
+        "label": "NOSC Atlanta",
+        "lat": 33.92786196241555,
+        "lng": -84.51910585740514
+    },
+    {
+        "title": "Onsite",
+        "label": "Moody Air Force Base",
+        "lat": 30.968625684561587,
+        "lng": -83.19306350145581
+    },
+    {
+        "title": "Onsite",
+        "label": "Marine Corps Logistics Base Albany",
+        "lat": 31.550770772028777,
+        "lng": -84.0638436097047
+    }
+]

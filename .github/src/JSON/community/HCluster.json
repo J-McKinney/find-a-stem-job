@@ -1,0 +1,185 @@
+[
+    {
+        "title": "Remote",
+        "label": "Sabor Do Brasil",
+        "lat": 33.74069565273184,
+        "lng": -84.25374265987409
+    },
+    {
+        "title": "Remote",
+        "label": "Rio SteakHouse",
+        "lat": 33.7964094432192,
+        "lng": -84.21792716713198
+    },
+    {
+        "title": "Remote",
+        "label": "Willy's Mexicana Grill",
+        "lat": 33.80214852546382,
+        "lng": -84.44848374973128
+    },
+    {
+        "title": "Remote",
+        "label": "Brazilian Bakery Cafe",
+        "lat": 33.869948494378455,
+        "lng": -84.36085086167233
+    },
+    {
+        "title": "Remote",
+        "label": "Waffle House",
+        "lat": 33.819821663814615,
+        "lng": -84.33759929891055
+    },
+    {
+        "title": "Remote",
+        "label": "Wings & Things",
+        "lat": 33.677532948253734,
+        "lng": -83.84051685788873
+    },
+    {
+        "title": "Remote",
+        "label": "Delkwood Gril",
+        "lat": 33.96376533062386,
+        "lng": -84.55747457325194
+    },
+    {
+        "title": "Remote",
+        "label": "J. Christopher's",
+        "lat": 34.03821266637765,
+        "lng": -85.15259485315124
+    },
+    {
+        "title": "Remote",
+        "label": "Zaxby's",
+        "lat": 33.736142212009405,
+        "lng": -84.63879409878676
+    },
+    {
+        "title": "Hybrid",
+        "label": "Pappadeaux Seafood Kitchen",
+        "lat": 33.71496542264831,
+        "lng": -84.61407671464421
+    },
+    {
+        "title": "Hybrid",
+        "label": "Minas Grill",
+        "lat": 33.95326857911678,
+        "lng": -84.53236120563784
+    },
+    {
+        "title": "Hybrid",
+        "label": "Hibachi STOP",
+        "lat": 33.813452139158564,
+        "lng": -84.49264233366915
+    },
+    {
+        "title": "Hybrid",
+        "label": "Blue Moon Pizza",
+        "lat": 33.85218483537021,
+        "lng": -84.37255846708354
+    },
+    {
+        "title": "Hybrid",
+        "label": "Marietta Diner",
+        "lat": 33.656685978403864,
+        "lng": -84.40393854411482
+    },
+    {
+        "title": "Hybrid",
+        "label": "Bonefish Grill",
+        "lat": 33.748824879836484,
+        "lng": -84.56901369726613
+    },
+    {
+        "title": "Hybrid",
+        "label": "Battle And Brew",
+        "lat": 33.37622145739476,
+        "lng": -84.05195612850213
+    },
+    {
+        "title": "Hybrid",
+        "label": "Fugu Express",
+        "lat": 33.97959219723126,
+        "lng": -84.20861750402844
+    },
+    {
+        "title": "Hybrid",
+        "label": "Pappasito's Cantina",
+        "lat": 34.069794508223474,
+        "lng": -84.08531244272295
+    },
+    {
+        "title": "Onsite",
+        "label": "Cracker Barrel",
+        "lat": 33.807134798436046,
+        "lng": -84.53685429678191
+    },
+    {
+        "title": "Onsite",
+        "label": "Ray's on the River",
+        "lat": 33.699349092747354,
+        "lng": -84.51904295921601
+    },
+    {
+        "title": "Onsite",
+        "label": "Yard House",
+        "lat": 33.78263461080614,
+        "lng": -84.32406561048924
+    },
+    {
+        "title": "Onsite",
+        "label": "The Bowl",
+        "lat": 33.824781297347705,
+        "lng": -84.47180882021888
+    },
+    {
+        "title": "Onsite",
+        "label": "Chic-fil-a",
+        "lat": 33.766382424534186,
+        "lng": -84.26966828189197
+    },
+    {
+        "title": "Onsite",
+        "label": "Canoe",
+        "lat": 33.97984282714402,
+        "lng": -84.35285244024826
+    },
+    {
+        "title": "Onsite",
+        "label": "Hikaru Ramen",
+        "lat": 33.27233909278364,
+        "lng": -83.05405307848439
+    },
+    {
+        "title": "Onsite",
+        "label": "Falafel Cafe",
+        "lat": 33.93390740659755,
+        "lng": -84.96072176794321
+    },
+    {
+        "title": "Onsite",
+        "label": "Soul Food Train",
+        "lat": 34.069794508223474,
+        "lng": -84.08531244272295
+    },
+    {
+        "title": "Norcross: Hospitality",
+        "label": "Norcross",
+        "icon": "../images/markers/red_MarkerH.png",
+        "lat": 33.93687547118734,
+        "lng": -84.20772928599138
+    },
+    {
+        "title": "Kennesaw: Hospitality",
+        "label": "Kennesaw",
+        "icon": "../images/markers/red_MarkerH.png",
+        "lat": 34.03043926475064,
+        "lng": -84.61738510902339
+    },
+    {
+        "title": "Lawrenceville: Hospitality",
+        "label": "Lawrenceville",
+        "icon": "../images/markers/red_MarkerH.png",
+        "lat": 33.95410224545515,
+        "lng": -83.993024970729
+    }
+]

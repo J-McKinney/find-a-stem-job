@@ -1,0 +1,332 @@
+[
+    {
+        "title": "Hybrid",
+        "label": "Pappadeaux Seafood Kitchen",
+        "lat": 33.71496542264831,
+        "lng": -84.61407671464421
+    },
+    {
+        "title": "Hybrid",
+        "label": "Minas Grill",
+        "lat": 33.95326857911678,
+        "lng": -84.53236120563784
+    },
+    {
+        "title": "Hybrid",
+        "label": "Hibachi STOP",
+        "lat": 33.813452139158564,
+        "lng": -84.49264233366915
+    },
+    {
+        "title": "Hybrid",
+        "label": "Blue Moon Pizza",
+        "lat": 33.85218483537021,
+        "lng": -84.37255846708354
+    },
+    {
+        "title": "Hybrid",
+        "label": "Marietta Diner",
+        "lat": 33.656685978403864,
+        "lng": -84.40393854411482
+    },
+    {
+        "title": "Hybrid",
+        "label": "Bonefish Grill",
+        "lat": 33.748824879836484,
+        "lng": -84.56901369726613
+    },
+    {
+        "title": "Hybrid",
+        "label": "Battle And Brew",
+        "lat": 33.37622145739476,
+        "lng": -84.05195612850213
+    },
+    {
+        "title": "Hybrid",
+        "label": "Fugu Express",
+        "lat": 33.97959219723126,
+        "lng": -84.20861750402844
+    },
+    {
+        "title": "Hybrid",
+        "label": "Pappasito's Cantina",
+        "lat": 34.069794508223474,
+        "lng": -84.08531244272295
+    },
+    {
+        "title": "Hybrid",
+        "label": "Albany Technical College",
+        "lat": 31.554780783279696,
+        "lng": -84.17438996588969
+    },
+    {
+        "title": "Hybrid",
+        "label": "Athens Technical College",
+        "lat": 33.991500763148295,
+        "lng": -83.33919072812836
+    },
+    {
+        "title": "Hybrid",
+        "label": "Atlanta Metropolitan State College",
+        "lat": 33.709674311461725,
+        "lng": -84.40456944151022
+    },
+    {
+        "title": "Hybrid",
+        "label": "Kennesaw State University",
+        "lat": 34.03818571498682,
+        "lng": -84.58266975157382
+    },
+    {
+        "title": "Hybrid",
+        "label": "Georgia State University",
+        "lat": 33.753079118265646,
+        "lng": -84.38528190082044
+    },
+    {
+        "title": "Hybrid",
+        "label": "Albany State University",
+        "lat": 32.42055622692872,
+        "lng": -81.78653738305033
+    },
+    {
+        "title": "Hybrid",
+        "label": "Augusta University",
+        "lat": 33.470914402087956,
+        "lng": -81.9898848008337
+    },
+    {
+        "title": "Hybrid",
+        "label": "East Georgia State College",
+        "lat": 32.59536696835398,
+        "lng": -82.30701034195552
+    },
+    {
+        "title": "Hybrid",
+        "label": "Gwinnett School of STEM",
+        "lat": 33.953028689350816,
+        "lng": -84.06018026831968
+    },
+    {
+        "title": "Hybrid",
+        "label": "Northview High School",
+        "lat": 34.039115629444325,
+        "lng": -84.17774218900878
+    },
+    {
+        "title": "Hybrid",
+        "label": "Walton High School",
+        "lat": 33.989273724740094,
+        "lng": -84.44046804256497
+    },
+    {
+        "title": "Hybrid",
+        "label": "Riverwatch Middle School",
+        "lat": 34.124189923129805,
+        "lng": -84.10954703755664
+    },
+    {
+        "title": "Hybrid",
+        "label": "Rising Starr Middle School",
+        "lat": 33.34210365867751,
+        "lng": -84.51957618996288
+    },
+    {
+        "title": "Hybrid",
+        "label": "South Forsyth Middle School",
+        "lat": 34.11609205486133,
+        "lng": -84.15308598848578
+    },
+    {
+        "title": "Hybrid",
+        "label": "Kittredge Magnet School",
+        "lat": 33.826737186582726,
+        "lng": -84.32788756417169
+    },
+    {
+        "title": "Hybrid",
+        "label": "Johns Creek Elementary",
+        "lat": 34.06443880983196,
+        "lng": -84.12713165309809
+    },
+    {
+        "title": "Hybrid",
+        "label": "Kimi Farms",
+        "lat": 32.538921040705674,
+        "lng": -84.95880717032333
+    },
+    {
+        "title": "Hybrid",
+        "label": "Double Durango Farm",
+        "lat": 32.449047399645565,
+        "lng": -84.9797575978739
+    },
+    {
+        "title": "Hybrid",
+        "label": "Dixon Farms",
+        "lat": 32.516951312743224,
+        "lng": -85.19904246765286
+    },
+    {
+        "title": "Hybrid",
+        "label": "Bromatoes Urban Farm",
+        "lat": 32.46961876902247,
+        "lng": -84.97597222806935
+    },
+    {
+        "title": "Hybrid",
+        "label": "Simply Dutch Farm",
+        "lat": 32.640442168450335,
+        "lng": -84.7400855409999
+    },
+    {
+        "title": "Hybrid",
+        "label": "Tillman Family Farms",
+        "lat": 32.63485789686243,
+        "lng": -85.03044367098705
+    },
+    {
+        "title": "Hybrid",
+        "label": "Jenny Jack Farm",
+        "lat": 32.852865766252854,
+        "lng": -84.96529461380038
+    },
+    {
+        "title": "Hybrid",
+        "label": "Knights of Columbus Christmas tree",
+        "lat": 32.46989827165934,
+        "lng": -84.98798954100549
+    },
+    {
+        "title": "Hybrid",
+        "label": "Fort Gordon",
+        "lat": 33.43015764745154,
+        "lng": -82.12614060028285
+    },
+    {
+        "title": "Hybrid",
+        "label": "Robins AFB",
+        "lat": 32.6400038962996,
+        "lng": -83.59171777278375
+    },
+    {
+        "title": "Hybrid",
+        "label": "Dobbins Air Reserve Base",
+        "lat": 33.91886550033301,
+        "lng": -84.50464657388633
+    },
+    {
+        "title": "Hybrid",
+        "label": "Fort Benning",
+        "lat": 32.39127720036821,
+        "lng": -84.82290750481575
+    },
+    {
+        "title": "Hybrid",
+        "label": "Clay National Guard Center",
+        "lat": 33.91386748009685,
+        "lng": -84.52846994560971
+    },
+    {
+        "title": "Hybrid",
+        "label": "Georgia State Defense Force Headquarters",
+        "lat": 33.91372464772484,
+        "lng": -84.53319138306901
+    },
+    {
+        "title": "Hybrid",
+        "label": "US Defense Contract Audit Agency",
+        "lat": 33.897093725680335,
+        "lng": -84.4835195830216
+    },
+    {
+        "title": "Hybrid",
+        "label": "US Army-Fort Stewart",
+        "lat": 31.871106515436196,
+        "lng": -81.62135879827156
+    },
+    {
+        "title": "Hybrid",
+        "label": "Hunter Army Airfield",
+        "lat": 32.01124454726715,
+        "lng": -81.14701784388058
+    },
+    {
+        "title": "Hybrid",
+        "label": "Fort Gillem",
+        "lat": 33.62024030202808,
+        "lng": -84.32889630263172
+    },
+    {
+        "title": "Hybrid",
+        "label": "Fort McPherson",
+        "lat": 33.707746967924834,
+        "lng": -84.43411780904164
+    },
+    {
+        "title": "Hybrid",
+        "label": "Office of the Adjutant General",
+        "lat": 33.913250528783784,
+        "lng": -84.53305740565226
+    },
+    {
+        "title": "Hybrid",
+        "label": "Joint Operations",
+        "lat": 33.918883257825776,
+        "lng": -84.50476636778612
+    },
+    {
+        "title": "Hybrid",
+        "label": "United States Department-The Air Frc",
+        "lat": 33.899331997530716,
+        "lng": -84.47470616825969
+    },
+    {
+        "title": "Hybrid",
+        "label": "Georgia State Defense Force OPFOR Battalion",
+        "lat": 33.91307545656481,
+        "lng": -84.53327506149068
+    },
+    {
+        "title": "Hybrid",
+        "label": "Georgia Air National Guard",
+        "lat": 33.89559507925169,
+        "lng": -84.59034134330939
+    },
+    {
+        "title": "Hybrid",
+        "label": "A Company, 1-121 Infantry, Georgia Army National Guard",
+        "lat": 33.959972212066184,
+        "lng": -83.9723629544459
+    },
+    {
+        "title": "Hybrid",
+        "label": "Camp Frank D. Merrill",
+        "lat": 34.62748094436676,
+        "lng": -84.10422575950473
+    },
+    {
+        "title": "Hybrid",
+        "label": "US Army Camp Merril",
+        "lat": 34.6272723738778,
+        "lng": -84.10480511559008
+    },
+    {
+        "title": "Hybrid",
+        "label": "NOSC Atlanta",
+        "lat": 33.92786196241555,
+        "lng": -84.51910585740514
+    },
+    {
+        "title": "Hybrid",
+        "label": "Moody Air Force Base",
+        "lat": 30.968625684561587,
+        "lng": -83.19306350145581
+    },
+    {
+        "title": "Hybrid",
+        "label": "Marine Corps Logistics Base Albany",
+        "lat": 31.550770772028777,
+        "lng": -84.0638436097047
+    }
+]

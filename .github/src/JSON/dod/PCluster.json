@@ -1,0 +1,134 @@
+[
+    {
+        "title": "Remote",
+        "label": "Fort Gordon",
+        "lat": 33.4301,
+        "lng": -82.126
+    },
+    {
+        "title": "Remote",
+        "label": "Robins AFB",
+        "lat": 32.640,
+        "lng": -83.591
+    },
+    {
+        "title": "Remote",
+        "label": "Dobbins Air Reserve Base",
+        "lat": 33.9183,
+        "lng": -84.504
+    },
+    {
+        "title": "Remote",
+        "label": "Fort Benning",
+        "lat": 32.3918,
+        "lng": -84.822
+    },
+    {
+        "title": "Remote",
+        "label": "Clay National Guard Center",
+        "lat": 33.9136,
+        "lng": -84.528
+    },
+    {
+        "title": "Remote",
+        "label": "Georgia State Defense Force Headquarters",
+        "lat": 33.9134,
+        "lng": -84.533
+    },
+    {
+        "title": "Remote",
+        "label": "US Defense Contract Audit Agency",
+        "lat": 33.89703,
+        "lng": -84.483
+    },
+    {
+        "title": "Remote",
+        "label": "US Army-Fort Stewart",
+        "lat": 31.87161,
+        "lng": -81.621
+    },
+    {
+        "title": "Hybrid",
+        "label": "Hunter Army Airfield",
+        "lat": 32.0117,
+        "lng": -81.147
+    },
+    {
+        "title": "Hybrid",
+        "label": "Fort Gillem",
+        "lat": 33.6208,
+        "lng": -84.328
+    },
+    {
+        "title": "Hybrid",
+        "label": "Fort McPherson",
+        "lat": 33.70748,
+        "lng": -84.434
+    },
+    {
+        "title": "Hybrid",
+        "label": "Office of the Adjutant General",
+        "lat": 33.91337,
+        "lng": -84.533
+    },
+    {
+        "title": "Hybrid",
+        "label": "Joint Operations",
+        "lat": 33.91857,
+        "lng": -84.504
+    },
+    {
+        "title": "Hybrid",
+        "label": "United States Department-The Air Frc",
+        "lat": 33.89907,
+        "lng": -84.474
+    },
+    {
+        "title": "Hybrid",
+        "label": "Georgia State Defense Force OPFOR Battalion",
+        "lat": 33.9134,
+        "lng": -84.533
+    },
+    {
+        "title": "Hybrid",
+        "label": "Georgia Air National Guard",
+        "lat": 33.8951,
+        "lng": -84.590
+    },
+    {
+        "title": "Onsite",
+        "label": "A Company, 1-121 Infantry, Georgia Army National Guard",
+        "lat": 33.95961,
+        "lng": -83.972
+    },
+    {
+        "title": "Onsite",
+        "label": "Camp Frank D. Merrill",
+        "lat": 34.6276,
+        "lng": -84.104
+    },
+    {
+        "title": "Onsite",
+        "label": "US Army Camp Merril",
+        "lat": 34.627,
+        "lng": -84.104
+    },
+    {
+        "title": "Onsite",
+        "label": "NOSC Atlanta",
+        "lat": 33.9275,
+        "lng": -84.519
+    },
+    {
+        "title": "Onsite",
+        "label": "Moody Air Force Base",
+        "lat": 30.96815,
+        "lng": -83.193
+    },
+    {
+        "title": "Onsite",
+        "label": "Marine Corps Logistics Base Albany",
+        "lat": 31.55087,
+        "lng": -84.063
+    }
+]

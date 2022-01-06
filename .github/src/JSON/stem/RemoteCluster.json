@@ -1,0 +1,50 @@
+[
+    {
+        "title": "Remote",
+        "label": "Atlanta Technical College",
+        "lat": 33.71177331490831,
+        "lng": -84.40779501220935
+    },
+    {
+        "title": "Remote",
+        "label": "Georgia Piedmont Technical College",
+        "lat": 33.96279998295945,
+        "lng": -84.06757085275673
+    },
+    {
+        "title": "Remote",
+        "label": "Columbus Technical College",
+        "lat": 32.50810616960871,
+        "lng": -84.97849567117237
+    },
+    {
+        "title": "Remote",
+        "label": "Chattahoochee Technical College",
+        "lat": 33.929168567035575,
+        "lng": -84.55332197870818
+    },
+    {
+        "title": "Remote",
+        "label": "Georgia Institute of Technology",
+        "lat": 33.77562943876282,
+        "lng": -84.39628550167927
+    },
+    {
+        "title": "Remote",
+        "label": "Emory University",
+        "lat": 33.79713453881812,
+        "lng": -84.32224268305148
+    },
+    {
+        "title": "Remote",
+        "label": "Columbus State University",
+        "lat": 32.50202703735372,
+        "lng": -84.94016754195609
+    },
+    {
+        "title": "Remote",
+        "label": "Georgia Southwestern State University",
+        "lat": 32.05603719089806,
+        "lng": -84.21751034398264
+    }
+]

@@ -1,0 +1,150 @@
+[
+    {
+        "title": "Remote",
+        "label": "AptAmigo",
+        "lat": 33.74069565273184,
+        "lng": -84.25374265987409
+    },
+    {
+        "title": "Remote",
+        "label": "Convoy",
+        "lat": 33.7964094432192,
+        "lng": -84.21792716713198
+    },
+    {
+        "title": "Remote",
+        "label": "Mailchimp",
+        "lat": 33.80214852546382,
+        "lng": -84.44848374973128
+    },
+    {
+        "title": "Remote",
+        "label": "Urjanet",
+        "lat": 33.869948494378455,
+        "lng": -84.36085086167233
+    },
+    {
+        "title": "Remote",
+        "label": "Fiserv",
+        "lat": 33.819821663814615,
+        "lng": -84.33759929891055
+    },
+    {
+        "title": "Remote",
+        "label": "Secureworks",
+        "lat": 33.677532948253734,
+        "lng": -83.84051685788873
+    },
+    {
+        "title": "Remote",
+        "label": "NCR",
+        "lat": 33.96376533062386,
+        "lng": -84.55747457325194
+    },
+    {
+        "title": "Remote",
+        "label": "Cox Automotive",
+        "lat": 34.03821266637765,
+        "lng": -85.15259485315124
+    },
+    {
+        "title": "Hybrid",
+        "label": "Global Payments",
+        "lat": 33.95326857911678,
+        "lng": -84.53236120563784
+    },
+    {
+        "title": "Hybrid",
+        "label": "Cricket Wireless",
+        "lat": 33.813452139158564,
+        "lng": -84.49264233366915
+    },
+    {
+        "title": "Hybrid",
+        "label": "iMedX",
+        "lat": 33.85218483537021,
+        "lng": -84.37255846708354
+    },
+    {
+        "title": "Hybrid",
+        "label": "PGi",
+        "lat": 33.656685978403864,
+        "lng": -84.40393854411482
+    },
+    {
+        "title": "Hybrid",
+        "label": "Matillion",
+        "lat": 33.748824879836484,
+        "lng": -84.56901369726613
+    },
+    {
+        "title": "Hybrid",
+        "label": "Tempus",
+        "lat": 33.37622145739476,
+        "lng": -84.05195612850213
+    },
+    {
+        "title": "Hybrid",
+        "label": "Instacart",
+        "lat": 33.97959219723126,
+        "lng": -84.20861750402844
+    },
+    {
+        "title": "Hybrid",
+        "label": "AptAmigo",
+        "lat": 34.069794508223474,
+        "lng": -84.08531244272295
+    },
+    {
+        "title": "Onsite",
+        "label": "FullStory",
+        "lat": 33.699349092747354,
+        "lng": -84.51904295921601
+    },
+    {
+        "title": "Onsite",
+        "label": "Vonage",
+        "lat": 33.78263461080614,
+        "lng": -84.32406561048924
+    },
+    {
+        "title": "Onsite",
+        "label": "Urjanet",
+        "lat": 33.824781297347705,
+        "lng": -84.47180882021888
+    },
+    {
+        "title": "Onsite",
+        "label": "OneTrust",
+        "lat": 33.766382424534186,
+        "lng": -84.26966828189197
+    },
+    {
+        "title": "East Point: Technology",
+        "label": "East Point",
+        "icon": "../images/markers/yellow_MarkerT.png",
+        "lat": 33.67978700657323,
+        "lng": -84.43959133878374
+    },
+    {
+        "title": "College Park: Technology",
+        "label": "College Park",
+        "icon": "../images/markers/yellow_MarkerT.png",
+        "lat": 33.634970326289334,
+        "lng": -84.46822017581849
+    },
+    {
+        "title": "Decatur: Technology",
+        "label": "Decatur",
+        "icon": "../images/markers/yellow_MarkerT.png",
+        "lat": 33.77172651658744,
+        "lng": -84.29787817802064
+    },
+    {
+        "title": "Curiosity Lab at Peachtree Corners",
+        "label": "Curiosity Lab at Peachtree Corners",
+        "icon": "../images/markers/yellow_MarkerT.png",
+        "lat": 33.963082523213664,
+        "lng": -84.22071888785031
+    }
+]

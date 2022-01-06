@@ -1,0 +1,146 @@
+[
+    {
+        "title": "Remote",
+        "label": "Atlanta Technical College",
+        "lat": 33.71177331490831,
+        "lng": -84.40779501220935
+    },
+    {
+        "title": "Hybrid",
+        "label": "Albany Technical College",
+        "lat": 31.554780783279696,
+        "lng": -84.17438996588969
+    },
+    {
+        "title": "Onsite",
+        "label": "Augusta Technical College",
+        "lat": 33.7899124969126,
+        "lng": -84.234454883044
+    },
+    {
+        "title": "Remote",
+        "label": "Georgia Piedmont Technical College",
+        "lat": 33.96279998295945,
+        "lng": -84.06757085275673
+    },
+    {
+        "title": "Hybrid",
+        "label": "Athens Technical College",
+        "lat": 33.991500763148295,
+        "lng": -83.33919072812836
+    },
+    {
+        "title": "Onsite",
+        "label": "Gwinnett Technical College",
+        "lat": 33.78263461080614,
+        "lng": -84.32406561048924
+    },
+    {
+        "title": "Remote",
+        "label": "Columbus Technical College",
+        "lat": 32.50810616960871,
+        "lng": -84.97849567117237
+    },
+    {
+        "title": "Hybrid",
+        "label": "Atlanta Metropolitan State College",
+        "lat": 33.709674311461725,
+        "lng": -84.40456944151022
+    },
+    {
+        "title": "Onsite",
+        "label": "Georgia Military College",
+        "lat": 33.07893954310344,
+        "lng": -83.22344377316962
+    },
+    {
+        "title": "Remote",
+        "label": "Chattahoochee Technical College",
+        "lat": 33.929168567035575,
+        "lng": -84.55332197870818
+    },
+    {
+        "title": "Hybrid",
+        "label": "Lanier Technical College",
+        "lat": 34.14884991998746,
+        "lng": -84.1850702640567
+    },
+    {
+        "title": "Onsite",
+        "label": "University of Georgia",
+        "lat": 33.94800606331418,
+        "lng": -83.37732717768762
+    },
+    {
+        "title": "Remote",
+        "label": "Georgia Highlands College",
+        "lat": 34.169762809551614,
+        "lng": -85.20744880772585
+    },
+    {
+        "title": "Hybrid",
+        "label": "Southeastern Technical College",
+        "lat": 32.203791266771745,
+        "lng": -82.3659565785104
+    },
+    {
+        "title": "Onsite",
+        "label": "Savannah Technical College",
+        "lat": 32.02357639549461,
+        "lng": -81.11418445111303
+    },
+    {
+        "title": "Remote",
+        "label": "Georgia NW Technical College",
+        "lat": 34.80891631887993,
+        "lng": -85.24607442015797
+    },
+    {
+        "title": "Hybrid",
+        "label": "Andrew College",
+        "lat": 32.42055622692872,
+        "lng": -81.78653738305033
+    },
+    {
+        "title": "Onsite",
+        "label": "South Georgia Technical College",
+        "lat": 32.117879004508666,
+        "lng": -84.18856517513466
+    },
+    {
+        "title": "Remote",
+        "label": "North Georgia Technical College",
+        "lat": 34.63891880653135,
+        "lng": -83.52917665953638
+    },
+    {
+        "title": "Hybrid",
+        "label": "Fortis College",
+        "lat": 33.90030545568694,
+        "lng": -84.54275478305189
+    },
+    {
+        "title": "Onsite",
+        "label": "Wiregrass Georgia Technical College",
+        "lat": 30.88964983953141,
+        "lng": -83.35447529313798
+    },
+    {
+        "title": "Remote",
+        "label": "Central Georgia Technical College",
+        "lat": 32.54518887778059,
+        "lng": -83.66747148274297
+    },
+    {
+        "title": "Hybrid",
+        "label": "Gordon State College",
+        "lat": 33.04737625937543,
+        "lng": -84.1516644052567
+    },
+    {
+        "title": "Onsite",
+        "label": "College of Coastal Georgia",
+        "lat": 31.183265442775024,
+        "lng": -81.48677650699494
+    }
+]
